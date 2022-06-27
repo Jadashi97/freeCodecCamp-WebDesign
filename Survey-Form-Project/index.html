@@ -17,13 +17,30 @@
 </p>
 
 <form id="survey-form">
-    <select name="" id="dropdown">
         <label for="name" id="name-label">Name:</label>
         <input type="text" id="name" placeholder="Name" required>
         <label for="email" id="email-label">Email:</label>
         <input type="email" id="email" placeholder="Email" required>
 
         <label for="number" id="number-label">Number:</label>
-        <input type="number" id="number" placeholder="Number" min="0" max="100" required>
-    </select>
-</form>`
+        <input type="number" id="number" placeholder="Number" min="10" max="100" required>
+        <label for="dropdown">Occupation:</label>
+        <select name="" id="dropdown">
+            <option value="">Student</option>
+            <option value="">Full Time</option>
+        </select>
+        <input type="radio"  value="male" name="male1" id="">
+        <input type="radio"  value="male" name="male1" id="">
+
+        <input type="radio"  value="female" name="female1" id="">
+        <input type="radio"  value="female" name="female1" id="">
+
+        <input type="checkbox" name="" id="" value="Done">
+        <input type="checkbox" name="" id="" value="Doing">
+
+        <br>
+        <textarea name="" id="" cols="30" rows="10"></textarea>
+
+        <button type="submit" id="submit"></button>
+
+</form>
